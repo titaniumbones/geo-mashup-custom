@@ -52,6 +52,14 @@ KML data is treated in a slightly different way. Because many end-users are capa
 
 Please note that there is also another way to add KML data to a map, by attaching a KML file to the page or post that contains the map you want that data to display on.  This is a built-in capacity of the Geo Mashup plugin, and should probably be used by preference _except_ when you want to use the data on more than one map. I t can also be a little frustrating to use the built-in technique because deleting attachments from Wordpress posts and pages is a very convoluted process. We try to simplify it a __little bit__ in the "Hacking History" plugin, distributed seperately.
 
-This is a pretty simple plugin. It would be great to use it to add more elaborate functionality; please feel free to submit bug reports and pull requrests to the Github repository.
+
+## Issues & Roadmap
+There are some serious outstanding issues with this plugin:
+
+* despite what's advertised, at present it only works with Google Maps. Rewriting to add support for Leaflet & other platforms is our first priority.
+* I'd like to add CSS styling here, and some documentation about how to use it.
+* We provide one mechanism for adjusting theo pacity of image overlays; it would be nice to add some UI to allow end users (website visitors) to adjust the opacity themselves.
+
+This is a pretty simple plugin. It would be great to use it to add more elaborate functionality; please feel free to submit bug reports and pull requrests to the [Github repository](https://github.com/titaniumbones/geo-mashup-custom).
 
 

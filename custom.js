@@ -34,7 +34,7 @@ var geoJsonFiles = {
 // this lambda function is loaded by the main geomashup plugin.  It has access to the
 // mapstraction map object ("map"), and to a properties object which stores all of the shortcode
 // attributes along with a bunch of other data. But we're only interested in the new attrributes we've added:
-// imageoverlay, imageopacity, geojson, and kml.  
+// imageoverlay, imageopacity, geojson, and kml.   
 GeoMashup.addAction( 'loadedMap', function ( properties, map ) {
     // console.log(properties.imageoverlay);
     // get direct access to the google map object. Should do a check to ensure that we're actually

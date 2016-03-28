@@ -1,27 +1,15 @@
 <?php /*
 Plugin Name: Geo Mashup Custom
-<<<<<<< HEAD
-         Plugin URI: https://github.com/titaniumbones/geo-mashup-custom
+Plugin URI: https://github.com/titaniumbones/geo-mashup-custom
 Description: Hacking History customizations for the Geo Mashup plugin so they aren't deleted during Geo Mashup upgrades. When this plugin is active, Geo Mashup will use these files and you can <a href="?geo_mashup_custom_list=1">list current custom files</a> here. Subfolders are okay for your own use, but won't be listed.
 Version: 1.0
 Author: Dylan Kuhn, Matt Price
 Author URI: http://matt.hackinghistory.ca, http://www.cyberhobo.net/
-=======
-Plugin URI: http://code.google.com/p/wordpress-geo-mashup/downloads
-Description: Provides a home for customization files for the Geo Mashup plugin so they aren't deleted during Geo Mashup upgrades. When this plugin is active, Geo Mashup will use these files and you can <a href="?geo_mashup_custom_list=1">list current custom files</a> here. Subfolders are okay for your own use, but won't be listed.
-Version: 1.0
-Author: Dylan Kuhn
-Author URI: http://www.cyberhobo.net/
->>>>>>> dae54039b0512936bdfa5c9a08cd09077cbb5422
 Minimum WordPress Version Required: 2.6
 */
 
 /*
-<<<<<<< HEAD
 Copyright (c) 2005-2009 Dylan Kuhn, 2016 Matt Price
-=======
-Copyright (c) 2005-2009 Dylan Kuhn
->>>>>>> dae54039b0512936bdfa5c9a08cd09077cbb5422
 
 This program is free software; you can redistribute it
 and/or modify it under the terms of the GNU General Public
@@ -154,5 +142,4 @@ class GeoMashupCustom {
 $geo_mashup_custom = new GeoMashupCustom();
 
 } // end if Geo Mashup Custom class exists
-
 
